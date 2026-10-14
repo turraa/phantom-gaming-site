@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://phantom-gaming.ru/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://phantom-gaming.ru/assets/img/hall-wide.jpg</image:loc>
+      <image:title>Основной зал компьютерного клуба Phantom Gaming в Ростове-на-Дону</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://phantom-gaming.ru/assets/img/ps5-zone.jpg</image:loc>
+      <image:title>Зона PlayStation 5 в клубе Phantom Gaming</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://phantom-gaming.ru/assets/img/facade.jpg</image:loc>
+      <image:title>Вход в клуб Phantom Gaming, проспект Мира 12Б</image:title>
+    </image:image>
+  </url>
+</urlset>

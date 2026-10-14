@@ -1,19 +1,336 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/phantom-gaming-site/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Phantom Gaming — PC-клуб в Ростове-на-Дону. Проспект Мира 12Б. Первый час бесплатно для новых гостей."
-    />
-    <meta name="theme-color" content="#05050a" />
-    <title>Phantom Gaming — PC-клуб</title>
-    <script type="module" crossorigin src="/phantom-gaming-site/assets/index-Caenfw3c.js"></script>
-    <link rel="stylesheet" crossorigin href="/phantom-gaming-site/assets/index-DAtTEZ2M.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phantom Gaming — PC-клуб в Ростове-на-Дону</title>
+<meta name="description" content="Phantom Gaming — киберклуб на пр. Мира 12Б. RTX 5060 Ti, мониторы 300 Гц, PS5, 24/7. Первый час бесплатно для новых гостей.">
+<link rel="canonical" href="https://turraa.github.io/phantom-gaming-site/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05060a">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Phantom Gaming">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Phantom Gaming — PC-клуб, Ростов-на-Дону">
+<meta property="og:description" content="RTX 5060 Ti, 300 Гц, PS5, 24/7. Первый час бесплатно для новых гостей.">
+<meta property="og:url" content="https://turraa.github.io/phantom-gaming-site/">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" sizes="180x180" href="assets/img/logo-sm.png">
+<link rel="apple-touch-icon" href="assets/img/logo-sm.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a class="brand" href="#hero" aria-label="Phantom Gaming — на главную">
+      <img class="brand__logo" src="assets/img/logo-sm.png" width="48" height="48" alt="Phantom Gaming">
+      <span class="brand__text">
+        <strong>Phantom</strong>
+        <span>Gaming</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Навигация">
+      <a href="#tariffs">Тарифы</a>
+      <a href="#hardware">Железо</a>
+      <a href="#gallery">Зал</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="header__actions">
+      <a class="header__phone" href="tel:+79094375533">+7 909 437-55-33</a>
+      <a class="btn btn--primary btn--sm" href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">Забронировать</a>
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="hero">
+    <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="metadata"
+           poster="assets/video/club-hero-poster.jpg" aria-hidden="true" tabindex="-1">
+      <source src="assets/video/club-hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero__veil"></div>
+
+    <div class="container">
+     <div class="hero__content">
+      <p class="hero__badges">
+        <span class="chip">★ 5,0</span>
+        <span class="chip chip--live">24/7</span>
+      </p>
+
+      <h1 class="hero__title">
+        <span class="grad">Phantom Gaming</span>
+      </h1>
+
+      <p class="hero__lead">
+        PC-клуб на пр. Мира 12Б. RTX 5060 Ti, 300 Гц, зона PS5.
+      </p>
+
+      <div class="offer">
+        <span class="offer__flash">💥</span>
+        <span class="offer__text"><strong>Первый час — бесплатно</strong> для новых гостей</span>
+      </div>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">
+          Забронировать в Telegram
+        </a>
+        <a class="btn btn--ghost" href="https://yandex.ru/maps/-/CXBV6Kzz" target="_blank" rel="noopener">
+          Маршрут
+        </a>
+      </div>
+
+      <dl class="stats">
+        <div class="stats__item"><dt>Час игры</dt><dd>от 90 ₽</dd></div>
+        <div class="stats__item"><dt>Режим</dt><dd>24/7</dd></div>
+        <div class="stats__item"><dt>Зоны</dt><dd>ПК · VIP · PS5</dd></div>
+      </dl>
+     </div>
+    </div>
+
+    <a class="hero__scroll" href="#tariffs" aria-label="Листать вниз"><span></span></a>
+  </section>
+
+  <section class="section section--alt" id="tariffs">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__kicker">Цены</p>
+        <h2 class="section__title">Тарифы</h2>
+      </header>
+
+      <div class="tariffs">
+        <article class="price reveal">
+          <div class="price__top">
+            <h3 class="price__title">Игровые ПК</h3>
+            <p class="price__note">RTX 5060 Ti · 300 Гц / 2K 240 Гц</p>
+          </div>
+          <ul class="price__list">
+            <li><span class="price__name">1 час</span><span class="price__val">120 ₽</span></li>
+            <li><span class="price__name">Пакет 3 часа</span><span class="price__val">300 ₽</span></li>
+            <li><span class="price__name">Пакет 5 часов</span><span class="price__val">500 ₽</span></li>
+            <li class="is-hit"><span class="price__name">Пакет 10 часов</span><span class="price__val">900 ₽</span></li>
+            <li><span class="price__name">Ночь 23:00–08:00</span><span class="price__val">650 ₽</span></li>
+            <li><span class="price__name">Утро 08:00–12:00</span><span class="price__val">90 ₽/час</span></li>
+          </ul>
+          <a class="btn btn--primary btn--full" href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">Занять ПК</a>
+        </article>
+
+        <article class="price price--ps reveal">
+          <div class="price__top">
+            <h3 class="price__title">PlayStation 5</h3>
+            <p class="price__note">Большой экран · диван · 2 геймпада</p>
+          </div>
+          <ul class="price__list">
+            <li><span class="price__name">1 час</span><span class="price__val">250 ₽</span></li>
+            <li class="is-hit"><span class="price__name">Пакет 3 часа</span><span class="price__val">650 ₽</span></li>
+          </ul>
+          <a class="btn btn--ghost btn--full" href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">Забронировать PS5</a>
+        </article>
+      </div>
+
+      <p class="tariffs__foot reveal">
+        🎁 <strong>Новым гостям первый час на ПК — бесплатно.</strong>
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="hardware">
+    <div class="container hardware">
+      <div class="hardware__text reveal">
+        <p class="section__kicker">Железо</p>
+        <h2 class="section__title">Конфигурация</h2>
+
+        <ul class="specs">
+          <li><span class="specs__label">Видеокарта</span><span class="specs__value">MSI GeForce RTX 5060 Ti</span></li>
+          <li><span class="specs__label">Монитор</span><span class="specs__value">MSI 24,5" — 300 Гц</span></li>
+          <li><span class="specs__label">Монитор 2K</span><span class="specs__value">MSI 27" 2K — 240 Гц</span></li>
+          <li><span class="specs__label">Клавиатура</span><span class="specs__value">RED Square</span></li>
+          <li><span class="specs__label">Мышь</span><span class="specs__value">Logitech G403 Hero</span></li>
+          <li><span class="specs__label">Наушники</span><span class="specs__value">HyperX Cloud II · Ardor</span></li>
+        </ul>
+
+        <ul class="tags">
+          <li>CS2</li><li>Dota 2</li><li>Valorant</li><li>Apex</li>
+          <li>GTA V</li><li>Fortnite</li><li>PUBG</li><li>Rust</li>
+        </ul>
+      </div>
+
+      <figure class="hardware__media reveal">
+        <picture>
+          <source srcset="assets/img/desks-row.webp" type="image/webp">
+          <img src="assets/img/desks-row.jpg" width="768" height="1024" loading="lazy" decoding="async"
+               alt="Игровые места Phantom Gaming">
+        </picture>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="gallery">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__kicker">Зал</p>
+        <h2 class="section__title">Фото клуба</h2>
+      </header>
+
+      <div class="gallery-wrap reveal">
+        <button class="gallery-nav gallery-nav--prev" type="button" aria-label="Назад" id="galleryPrev">‹</button>
+        <ul class="gallery" id="galleryTrack">
+          <li class="gallery__item">
+            <button type="button" class="gallery__btn" data-src="assets/img/hall-wide.jpg" data-caption="Основной зал">
+              <picture>
+                <source srcset="assets/img/hall-wide.webp" type="image/webp">
+                <img src="assets/img/hall-wide.jpg" width="1024" height="768" loading="lazy" decoding="async" alt="Основной зал">
+              </picture>
+              <span class="gallery__cap">Основной зал</span>
+            </button>
+          </li>
+          <li class="gallery__item">
+            <button type="button" class="gallery__btn" data-src="assets/img/hall-people.jpg" data-caption="Вечерняя катка">
+              <picture>
+                <source srcset="assets/img/hall-people.webp" type="image/webp">
+                <img src="assets/img/hall-people.jpg" width="1024" height="768" loading="lazy" decoding="async" alt="Вечерняя катка">
+              </picture>
+              <span class="gallery__cap">Вечерняя катка</span>
+            </button>
+          </li>
+          <li class="gallery__item">
+            <button type="button" class="gallery__btn gallery__btn--player" data-src="assets/img/player.jpg" data-caption="Соревновательный ряд">
+              <picture>
+                <source srcset="assets/img/player.webp" type="image/webp">
+                <img src="assets/img/player.jpg" width="768" height="1024" loading="lazy" decoding="async" alt="Соревновательный ряд">
+              </picture>
+              <span class="gallery__cap">300 Гц ряд</span>
+            </button>
+          </li>
+          <li class="gallery__item">
+            <button type="button" class="gallery__btn" data-src="assets/img/ps5-zone.jpg" data-caption="Зона PS5">
+              <picture>
+                <source srcset="assets/img/ps5-zone.webp" type="image/webp">
+                <img src="assets/img/ps5-zone.jpg" width="768" height="1024" loading="lazy" decoding="async" alt="Зона PS5">
+              </picture>
+              <span class="gallery__cap">Зона PS5</span>
+            </button>
+          </li>
+          <li class="gallery__item">
+            <button type="button" class="gallery__btn gallery__btn--facade" data-src="assets/img/facade.jpg" data-caption="Вход, пр. Мира 12Б">
+              <picture>
+                <source srcset="assets/img/facade.webp" type="image/webp">
+                <img src="assets/img/facade.jpg" width="463" height="1024" loading="lazy" decoding="async" alt="Вход клуба">
+              </picture>
+              <span class="gallery__cap">Вход</span>
+            </button>
+          </li>
+        </ul>
+        <button class="gallery-nav gallery-nav--next" type="button" aria-label="Вправо" id="galleryNext">›</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacts">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__kicker">Контакты</p>
+        <h2 class="section__title">пр. Мира, 12Б</h2>
+      </header>
+
+      <div class="contacts">
+        <div class="contacts__info reveal">
+          <ul class="contacts__list">
+            <li>
+              <span class="contacts__label">📍 Адрес</span>
+              <span class="contacts__value">Ростов-на-Дону, пр. Мира, 12Б</span>
+              <a class="contacts__link" href="https://yandex.ru/maps/-/CXBV6Kzz" target="_blank" rel="noopener">Маршрут →</a>
+            </li>
+            <li>
+              <span class="contacts__label">🕒 Режим</span>
+              <span class="contacts__value">Круглосуточно</span>
+            </li>
+            <li>
+              <span class="contacts__label">📞 Телефон</span>
+              <a class="contacts__value contacts__value--link" href="tel:+79094375533">+7 (909) 437-55-33</a>
+            </li>
+            <li>
+              <span class="contacts__label">✈️ Telegram</span>
+              <a class="contacts__value contacts__value--link" href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">@Phantom_gamingrnd</a>
+            </li>
+          </ul>
+
+          <div class="contacts__cta">
+            <a class="btn btn--primary btn--full" href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">
+              Написать в Telegram
+            </a>
+            <a class="btn btn--ghost btn--full" href="tel:+79094375533">Позвонить</a>
+          </div>
+        </div>
+
+        <div class="contacts__map reveal">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?ll=39.768018%2C47.246586&z=17&pt=39.768018,47.246586,pm2rdm&l=map"
+            title="Phantom Gaming на карте"
+            width="100%" height="100%" frameborder="0" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <img src="assets/img/logo-sm.png" width="64" height="64" loading="lazy" alt="Phantom Gaming">
+      <p>
+        <strong>Phantom Gaming</strong><br>
+        пр. Мира, 12Б · Ростов-на-Дону
+      </p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Навигация">
+      <a href="#tariffs">Тарифы</a>
+      <a href="#hardware">Железо</a>
+      <a href="#gallery">Зал</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="footer__contacts">
+      <a href="tel:+79094375533">+7 (909) 437-55-33</a>
+      <a href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">@Phantom_gamingrnd</a>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>© <span id="year">2026</span> Phantom Gaming</p>
+  </div>
+</footer>
+
+<div class="mobilebar">
+  <a class="mobilebar__btn mobilebar__btn--tg" href="https://t.me/Phantom_gamingrnd" target="_blank" rel="noopener">Забронировать</a>
+  <a class="mobilebar__btn" href="tel:+79094375533" aria-label="Позвонить">Позвонить</a>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фото" hidden>
+  <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Закрыть">✕</button>
+  <figure class="lightbox__figure">
+    <img id="lightboxImg" src="" alt="">
+    <figcaption id="lightboxCap"></figcaption>
+  </figure>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
 </html>
